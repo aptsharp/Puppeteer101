@@ -4,6 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "puppeteer-print": "node scripts/puppeteer-print-script.js",
+    "puppeteer-data":"node scripts/puppeteer-data-script.js",
+    "puppeteer-autot":"node scripts/puppeteer-autot-script.js",
+    "puppeteer-pdf":"node scripts/puppeteer-pdf-script.js",
+    "puppeteer-all":"npm run puppeteer-print && npm run puppeteer-data && npm run puppeteer-autot && npm run puppeteer-pdf",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -18,6 +23,7 @@
     "@angular/platform-browser": "^18.1.0",
     "@angular/platform-browser-dynamic": "^18.1.0",
     "@angular/router": "^18.1.0",
+    "puppeteer": "^22.13.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
