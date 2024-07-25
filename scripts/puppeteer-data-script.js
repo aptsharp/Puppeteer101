@@ -47,3 +47,4 @@ async function scrapeAngularPage() {
     await browser.close();
 }
 scrapeAngularPage();
+//script de extração de dados de uma pagina web

@@ -28,4 +28,4 @@ async function testUI() {
 }
 testUI();
 
-//fix: identifica os elementos: título principal, mensagem de congratulação e os links na seção.
+//identifica os elementos: título principal, mensagem de congratulação e os links na seção.
